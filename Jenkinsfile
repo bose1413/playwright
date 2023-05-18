@@ -10,7 +10,8 @@ pipeline {
       }
       stage('running tests') {
          steps {
-            sh 'npx playwright test'
+            sh 'npx playwright test --list'
+            sh 'npx playwright test example'
          }
       }
    }

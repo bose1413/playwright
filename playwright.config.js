@@ -45,7 +45,8 @@ module.exports = defineConfig({
         video: "on",
         browserName: "chromium",
         headless: false,
-        baseURL: "https://www.saucedemo.com"
+        baseURL: "https://www.saucedemo.com",
+        ignoreHTTPSErrors: true
       }
     }
     // {
